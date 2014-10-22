@@ -1,0 +1,65 @@
+2014-10-21 15:08:15.423 stationLocator[11565:3322547] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/concerto/Library/Developer/CoreSimulator/Devices/51A2740C-6128-4D5E-8454-BC01304880E5/data/Containers/Data/Application/C267F54A-300F-4604-B4E0-220B00FAB601/Library/Cookies/Cookies.binarycookies
+2014-10-21 15:08:16.080 stationLocator[11565:3322547] Multi-tasking -> Device: YES, App: YES
+2014-10-21 15:08:16.117 stationLocator[11565:3322547] Unlimited access to network resources
+2014-10-21 15:08:16.128 stationLocator[11565:3322547] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-10-21 15:08:17.078 stationLocator[11565:3322547] Resetting plugins due to page load.
+2014-10-21 15:08:17.340 stationLocator[11565:3322547] Finished load of: file:///Users/concerto/Library/Developer/CoreSimulator/Devices/51A2740C-6128-4D5E-8454-BC01304880E5/data/Containers/Bundle/Application/54A85B6B-D97E-4B36-9687-1BC4FA3809C5/stationLocator.app/www/index.html
+2014-10-21 15:08:17.414 stationLocator[11565:3322547] This app uses phonegap-googlemaps-plugin version 1.2.2
+2014-10-21 15:08:18.206 stationLocator[11565:3322547] ClientParametersRequest failed, 3 attempts remaining (0 vs 6). Error Domain=com.google.HTTPStatus Code=400 "The operation couldn’t be completed. (com.google.HTTPStatus error 400.)" UserInfo=0x7b165600 {data=<CFData 0x7b189e00 [0xabf510]>{length = 145, capacity = 256, bytes = 0x3c48544d4c3e0a3c484541443e0a3c54 ... 3c2f48544d4c3e0a}}
+2014-10-21 15:08:18.341 stationLocator[11565:3322547] Google Maps SDK for iOS version: 1.8.1.9233
+2014-10-21 15:08:21.454 stationLocator[11565:3322547] ClientParametersRequest failed, 2 attempts remaining (0 vs 6). Error Domain=com.google.HTTPStatus Code=400 "The operation couldn’t be completed. (com.google.HTTPStatus error 400.)" UserInfo=0x7b18e4b0 {data=<CFData 0x7b0a1140 [0xabf510]>{length = 145, capacity = 256, bytes = 0x3c48544d4c3e0a3c484541443e0a3c54 ... 3c2f48544d4c3e0a}}
+2014-10-21 15:08:25.899 stationLocator[11565:3322547] ClientParametersRequest failed, 1 attempts remaining (0 vs 6). Error Domain=com.google.HTTPStatus Code=400 "The operation couldn’t be completed. (com.google.HTTPStatus error 400.)" UserInfo=0x79ea3ab0 {data=<CFData 0x79ec8fd0 [0xabf510]>{length = 145, capacity = 256, bytes = 0x3c48544d4c3e0a3c484541443e0a3c54 ... 3c2f48544d4c3e0a}}
+2014-10-21 15:08:33.978 stationLocator[11565:3322547] ClientParametersRequest failed, 0 attempts remaining (0 vs 6). Error Domain=com.google.HTTPStatus Code=400 "The operation couldn’t be completed. (com.google.HTTPStatus error 400.)" UserInfo=0x79f4f080 {data=<CFData 0x7b0a74d0 [0xabf510]>{length = 145, capacity = 256, bytes = 0x3c48544d4c3e0a3c484541443e0a3c54 ... 3c2f48544d4c3e0a}}
+2014-10-21 15:08:33.978 stationLocator[11565:3322547] Google Maps SDK for iOS cannot connect or validate APIKey: Error Domain=com.google.HTTPStatus Code=400 "The operation couldn’t be completed. (com.google.HTTPStatus error 400.)" UserInfo=0x79f4f080 {data=<CFData 0x7b0a74d0 [0xabf510]>{length = 145, capacity = 256, bytes = 0x3c48544d4c3e0a3c484541443e0a3c54 ... 3c2f48544d4c3e0a}}
+2014-10-21 15:08:33.978 stationLocator[11565:3322547] Your key may be invalid for your bundle ID: com.concertodesigns.stationLocator
+2014-10-21 17:01:36.015 stationLocator[14884:3557698] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/concerto/Library/Developer/CoreSimulator/Devices/51A2740C-6128-4D5E-8454-BC01304880E5/data/Containers/Data/Application/1F6B3321-7770-4D97-9C62-1E252465FDFF/Library/Cookies/Cookies.binarycookies
+2014-10-21 17:01:36.167 stationLocator[14884:3557698] Multi-tasking -> Device: YES, App: YES
+2014-10-21 17:01:36.285 stationLocator[14884:3557698] *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '*** -[__NSArrayM insertObject:atIndex:]: object cannot be nil'
+*** First throw call stack:
+(
+	0   CoreFoundation                      0x00830df6 __exceptionPreprocess + 182
+	1   libobjc.A.dylib                     0x039a3a97 objc_exception_throw + 44
+	2   CoreFoundation                      0x006e81e1 -[__NSArrayM insertObject:atIndex:] + 881
+	3   CoreFoundation                      0x006e7e41 -[__NSArrayM addObject:] + 65
+	4   stationLocator                      0x000ff43a -[CDVConfigParser parser:didStartElement:namespaceURI:qualifiedName:attributes:] + 1498
+	5   Foundation                          0x03662b2c _startElementNs + 3178
+	6   libxml2.2.dylib                     0x0765132d xmlParseStartTag2 + 4426
+	7   libxml2.2.dylib                     0x076540a2 xmlParseTryOrFinish + 3828
+	8   libxml2.2.dylib                     0x07652fb2 xmlParseChunk + 952
+	9   Foundation                          0x0365fb0d -[NSXMLParser parseData:] + 314
+	10  Foundation                          0x0365fde8 -[NSXMLParser parseData:] + 1045
+	11  Foundation                          0x0365ffcd -[NSXMLParser parseFromStream] + 307
+	12  Foundation                          0x0366012e -[NSXMLParser parse] + 33
+	13  stationLocator                      0x000ef090 -[CDVViewController loadSettings] + 752
+	14  stationLocator                      0x000ee590 -[CDVViewController __init] + 1280
+	15  stationLocator                      0x000ee664 -[CDVViewController initWithNibName:bundle:] + 196
+	16  stationLocator                      0x00104a18 -[MainViewController initWithNibName:bundle:] + 152
+	17  UIKit                               0x00d34d59 -[UIViewController init] + 49
+	18  stationLocator                      0x000ee82e -[CDVViewController init] + 78
+	19  stationLocator                      0x00104afb -[MainViewController init] + 75
+	20  stationLocator                      0x00103f22 -[AppDelegate application:didFinishLaunchingWithOptions:] + 514
+	21  UIKit                               0x00bdbedc -[UIApplication _handleDelegateCallbacksWithOptions:isSuspended:restoreState:] + 291
+	22  UIKit                               0x00bdcbe7 -[UIApplication _callInitializationDelegatesForMainScene:transitionContext:] + 2869
+	23  UIKit                               0x00be016d -[UIApplication _runWithMainScene:transitionContext:completion:] + 1639
+	24  UIKit                               0x00bf8d30 __84-[UIApplication _handleApplicationActivationWithScene:transitionContext:completion:]_block_invoke + 59
+	25  UIKit                               0x00bded7f -[UIApplication workspaceDidEndTransaction:] + 155
+	26  FrontBoardServices                  0x041c49de __37-[FBSWorkspace clientEndTransaction:]_block_invoke_2 + 71
+	27  FrontBoardServices                  0x041c446f __40-[FBSWorkspace _performDelegateCallOut:]_block_invoke + 54
+	28  FrontBoardServices                  0x041d6425 __31-[FBSSerialQueue performAsync:]_block_invoke + 26
+	29  CoreFoundation                      0x007547a0 __CFRUNLOOP_IS_CALLING_OUT_TO_A_BLOCK__ + 16
+	30  CoreFoundation                      0x0074a0b3 __CFRunLoopDoBlocks + 195
+	31  CoreFoundation                      0x00749f0b __CFRunLoopRun + 2715
+	32  CoreFoundation                      0x007491ab CFRunLoopRunSpecific + 443
+	33  CoreFoundation                      0x00748fdb CFRunLoopRunInMode + 123
+	34  UIKit                               0x00bde744 -[UIApplication _run] + 571
+	35  UIKit                               0x00be1e16 UIApplicationMain + 1526
+	36  stationLocator                      0x00103b3c main + 92
+	37  libdyld.dylib                       0x03d15ac9 start + 1
+)
+libc++abi.dylib: terminating with uncaught exception of type NSException
